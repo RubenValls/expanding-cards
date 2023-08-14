@@ -12,20 +12,26 @@ body{
 .cards-container{
     display: flex;
     height: 85%;
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 
 .card{
     height: 100%;
-    width: 20%;
-    margin: 10px;
+    width: 5%;
+    margin: 5px;
 }
+
+.active{
+    width: 80%;
+}
+
 
 .card img{
     object-fit: cover;
     max-width: 100%;
     min-height: 100%;
+    border-radius: 2%;
 }
 
 .card img:hover{
