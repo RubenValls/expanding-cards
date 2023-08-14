@@ -19,7 +19,7 @@ body{
 .card{
     position: relative;
     height: 100%;
-    width: 5%;
+    width: 4%;
     margin: 5px;
     transition: 1.5s;
 }
