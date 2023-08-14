@@ -17,8 +17,24 @@ body{
 }
 
 .card{
-    background-color: red;
     height: 100%;
     width: 20%;
     margin: 10px;
+}
+
+.card img{
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.card img:hover{
+    opacity: 0.75;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card img:not(:hover){
+    opacity: 1;
+    transition: 0.5s;
 }
