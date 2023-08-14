@@ -17,16 +17,28 @@ body{
 }
 
 .card{
+    position: relative;
     height: 100%;
     width: 5%;
     margin: 5px;
     transition: 1s;
 }
 
+h2{
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    visibility: hidden;
+}
+
 .active{
     width: 80%;
 }
-
 
 .card img{
     object-fit: cover;
