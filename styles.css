@@ -10,8 +10,15 @@ body{
 }
 
 .cards-container{
+    display: flex;
     height: 85%;
     width: 85%;
-    background-color: black;
     margin: auto;
+}
+
+.card{
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    margin: 10px;
 }
